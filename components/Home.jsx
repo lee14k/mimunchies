@@ -22,7 +22,7 @@ export default function Home () {
   <h1 className="treats"> Special Occasions</h1>
   <div className='call perfect'>
   <span>We do all kinds of events. Not sure if we'll do it? Give us a call!</span>
-  <button>Contact us today!</button>
+  <button className='contactbutton'>Contact us today!</button>
   </div>
   </div>
   <div class="image-column">

@@ -86,42 +86,58 @@ h1,h2 {
 
   .orderbutton {
     width:200px;
-    height:100px;
+    height:50px;
     border-radius:50px;
     font-size:20px;
     font-family: 'Pacifico';
     -webkit-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
     box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);  }
+    .call {
+        display:flex;
+        flex-direction: column;
+      }
+    
+      .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; /* Optional: Add some space between text and button */
+      }
+      
+      .perfect{
+        font-family:'Roboto';
+      }
+    
+      .contactbutton {
+        width:200px;
+        height:50px;
+        border-radius:50px;
+        font-size:20px;
+        font-family: 'Pacifico';
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
+        box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
+      }
 
   @media screen and (max-width: 900px) {
     /* Change flex-direction to stack the columns vertically */
     .container {
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-  
+
     /* Reset margin for the image column to stack flush with the left */
     .image-column {
       margin-left: 0;
     }
     .treats {
+    
         font-size: 50px;
     }
-    
+
+ 
   }
 
-  .call {
-    display:flex;
-    flex-direction: column;
-  }
-
-  .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; /* Optional: Add some space between text and button */
-  }
   
-  .perfect{
-    font-family:'Roboto';
-  }

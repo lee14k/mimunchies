@@ -3,7 +3,7 @@ export default function Footer () {
     return (
         <div className='footwrap'>
             <div className='logowrap'>
-                <img className="footlogo" src="public/logomimunchies.png" alt="" />
+                <img className="footlogo" src="/logomimunchies.png" alt="" />
                 <h3>MI Munchies</h3>
             </div>
             <div className='breadcrumbs'>
