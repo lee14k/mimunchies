@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     height:800px;
-    background-image: linear-gradient(180deg, rgba(255,255,255,1) 17%, rgba(147,69,70,0) 100%), url('./midsection.png');
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 17%, rgba(147,69,70,0) 100%), url('../public/midsection.png');
     margin:0;
 }
 
