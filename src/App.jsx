@@ -3,6 +3,7 @@ import './App.css'
 import Home from '../components/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Ourmenu from '../components/Ourmenu';
+import Footer from '../components/Footer';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
 
         </Routes>
       </Router>
-
+<Footer/>
    </div>
   )
 }

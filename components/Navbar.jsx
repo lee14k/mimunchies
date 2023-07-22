@@ -51,18 +51,18 @@ function Navbar() {
       {(showMobile || !isMobile || dropdown) && (
         <ul className={`nav ${dropdown ? 'open' : ''}`}>
        
-          <li>
+          <li className="nav-item">
             <Link to="/" onClick={() => handleNavLinkClick('/')}>
               Home
             </Link>
           </li>
-          <li>
+          <li className="nav-item">
             <Link to="/Ourmenu" onClick={() => handleNavLinkClick('/Ourmenu')}>
               Our Menu
             </Link>
           </li>
-          <li>Contact Us</li>
-          <li>About</li>
+          <li className="nav-item">Contact Us</li>
+          <li className="nav-item">About</li>
        
         </ul>
       )}

@@ -39,3 +39,17 @@
   text-decoration: none;
   color:#243352;
   }
+
+  @media screen and (max-width: 900px) {
+    .nav {
+      flex-direction: column; /* Stack list items vertically */
+      align-items: center; /* Optional: Center the items horizontally */
+    }
+  
+    /* Give a lower z-index to the list items to prioritize other elements */
+    .nav-item {
+      z-index: 2;
+    }
+  
+
+  }

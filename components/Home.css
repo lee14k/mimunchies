@@ -1,22 +1,39 @@
 .homewrapper {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height:800px;
+    height: 100vh; /* Use viewport height to fill the screen vertically */
     background-image: linear-gradient(180deg, rgba(255,255,255,1) 17%, rgba(147,69,70,0) 100%), url('../public/midsection.png');
-    margin:0;
-}
-
+    background-size: cover; /* Make sure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    margin: 0;
+    padding: 20px; /* Optional: Add some padding to the container */
+    box-sizing: border-box;
+  }
+  
+  /* Adjust text size */
+  .homewrapper p {
+    font-size: 16px; /* Change the font size as needed */
+  }
+  
+  /* Adjust button size */
+  .homewrapper button {
+    font-size: 14px; /* Change the font size as needed */
+    padding: 10px 20px; /* Optional: Adjust padding as needed */
+    box-sizing: border-box;
+  }
+  
 .treats {
     font-family: 'Pacifico', sans-serif;
 
-    font-size:100px;
+    font-size:70px;
 }
 
 .logo {
     height:300px;
     width:300px;
+    z-index:1
 }
 
 .midsection {
@@ -87,6 +104,10 @@ h1,h2 {
     .image-column {
       margin-left: 0;
     }
+    .treats {
+        font-size: 50px;
+    }
+    
   }
 
   .call {
@@ -94,3 +115,13 @@ h1,h2 {
     flex-direction: column;
   }
 
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Optional: Add some space between text and button */
+  }
+  
+  .perfect{
+    font-family:'Roboto';
+  }

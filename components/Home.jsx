@@ -1,5 +1,6 @@
 import './Home.css'
 import '@fontsource/pacifico'
+import '@fontsource/roboto'
 
 export default function Home () {
     return (
@@ -9,12 +10,17 @@ export default function Home () {
         <img className="logo" src="./logomimunchies.png" alt="" />
 
              <h1 className='treats'>Freeze Dried Treats</h1>   
-             <button className='orderbutton'>Order your Treats</button>
+<div className="buttoncontainer">
+<button className='orderbutton'>Order your Treats</button>
+
+</div>
+             
         </div>
         <div class="container">
   <div class="text-column">
+    <h1 className="perfect">Perfect for</h1>
   <h1 className="treats"> Special Occasions</h1>
-  <div className='call'>
+  <div className='call perfect'>
   <span>We do all kinds of events. Not sure if we'll do it? Give us a call!</span>
   <button>Contact us today!</button>
   </div>

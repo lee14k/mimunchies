@@ -1,0 +1,10 @@
+.footlogo {
+    width:100px;
+    height:100px;
+}
+
+.footwrap {
+    display: flex;
+    gap:50px;
+    justify-content: space-evenly;
+}
