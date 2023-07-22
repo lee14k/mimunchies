@@ -21,7 +21,7 @@
 
 .midsection {
     height:500px;
-    background-image:url('./peachrings.jpeg');
+    background-image:url('../public/peachrings.jpeg');
     background-position:center ;
     background-size: cover;
 }
