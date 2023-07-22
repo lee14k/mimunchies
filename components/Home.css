@@ -124,6 +124,7 @@ h1,h2 {
     /* Change flex-direction to stack the columns vertically */
     body {
         overflow-x: hidden;
+    
     }
   .container {
     flex-direction: column;
