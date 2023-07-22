@@ -1,0 +1,87 @@
+.homewrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:800px;
+    background:#b853ae;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 17%, rgba(147,69,70,0) 100%), url('./midsection.png');
+    margin:0;
+}
+
+.treats {
+    font-family: 'Pacifico', sans-serif;
+
+    font-size:100px;
+}
+
+.logo {
+    height:300px;
+    width:300px;
+}
+
+.midsection {
+    height:500px;
+    background-image:url('./peachrings.jpeg');
+    background-position:center ;
+    background-size: cover;
+}
+
+h1,h2 {
+    margin-top:0;
+}
+/* Reset some default styles for the container and columns */
+.container {
+    display: flex;
+  }
+  
+  .text-column,
+  .image-column {
+    padding: 20px;
+  }
+  
+  /* Set the width for the text column to take up all available space */
+  .text-column {
+    flex-grow: 1;
+  }
+  
+  /* Optional: Center the image within its column */
+  .image-column img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Align the image column to the right */
+  .image-column {
+    margin-left: auto;
+  }
+  
+  .trays{
+    width:500px;
+    padding-left:20px;
+    margin-left:200px;
+  }
+
+  .orderbutton {
+    width:200px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+  }
+
+  @media screen and (max-width: 900px) {
+    /* Change flex-direction to stack the columns vertically */
+    .container {
+      flex-direction: column;
+    }
+  
+    /* Reset margin for the image column to stack flush with the left */
+    .image-column {
+      margin-left: 0;
+    }
+  }
+
+  .call {
+    display:flex;
+    flex-direction: column;
+  }
