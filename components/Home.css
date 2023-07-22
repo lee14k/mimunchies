@@ -122,15 +122,14 @@ h1,h2 {
 
   @media screen and (max-width: 900px) {
     /* Change flex-direction to stack the columns vertically */
-    body {
-        overflow-x: hidden;
-    
-    }
+ 
   .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width:100%;
+    overflow-x: hidden;
+
   }
 
   /* Reset margin for the image column to stack flush with the left */
@@ -142,6 +141,11 @@ h1,h2 {
     .treats {
     
         font-size: 50px;
+    }
+
+    .homewrapper {
+        overflow-x: hidden;
+
     }
 
  
