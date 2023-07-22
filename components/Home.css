@@ -21,9 +21,15 @@
 
 .midsection {
     height:500px;
-    background-image:url('../public/peachrings.jpeg');
+    background-image:radial-gradient(circle, rgba(251,222,63,0.5) 0%, rgba(252,70,107,0.5) 100%), url('../public/peachrings.jpeg');
     background-position:center ;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Pacifico';
+    color:white;
+    font-size:40px;
 }
 
 h1,h2 {
@@ -66,7 +72,10 @@ h1,h2 {
     height:100px;
     border-radius:50px;
     font-size:20px;
-  }
+    font-family: 'Pacifico';
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
+    box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);  }
 
   @media screen and (max-width: 900px) {
     /* Change flex-direction to stack the columns vertically */
@@ -84,3 +93,4 @@ h1,h2 {
     display:flex;
     flex-direction: column;
   }
+

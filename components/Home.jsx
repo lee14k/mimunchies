@@ -13,7 +13,7 @@ export default function Home () {
         </div>
         <div class="container">
   <div class="text-column">
-  <h1 className="treats"> Events? No problem!</h1>
+  <h1 className="treats"> Special Occasions</h1>
   <div className='call'>
   <span>We do all kinds of events. Not sure if we'll do it? Give us a call!</span>
   <button>Contact us today!</button>
