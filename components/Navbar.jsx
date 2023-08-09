@@ -54,13 +54,13 @@ function Navbar() {
       {(showMobile || !isMobile || dropdown) && (
         <ul className={`nav ${dropdown ? "open" : ""}`}>
           <li className="nav-item">
-            <Link to="/" onClick={() => handleNavLinkClick("/")}>
-              Home
+            <Link to="/Ourmenu" onClick={() => handleNavLinkClick("/Ourmenu")}>
+              Our Menu
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Ourmenu" onClick={() => handleNavLinkClick("/Ourmenu")}>
-              Our Menu
+            <Link to="/" onClick={() => handleNavLinkClick("/")}>
+              <img className="navlogo" src="mifinlogo.png"></img>
             </Link>
           </li>
           <li className="nav-item">
@@ -68,7 +68,6 @@ function Navbar() {
               Contact Us
             </Link>
           </li>
-          <li className="nav-item"><Link to="/About" onClick={()=> handleNavLinkClick("About")}>About</Link></li>
         </ul>
       )}
     </div>
