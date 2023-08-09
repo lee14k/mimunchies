@@ -1,0 +1,48 @@
+/* OurMenu.css */
+
+/* Create a 1 row, 2 column grid */
+.gridlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  gap: 10px; /* Gap between items */
+  list-style: none; /* Remove the default list item bullets */
+  padding: 0;
+  margin: 0;
+}
+
+/* Style each grid item as a box */
+.griditem {
+  border: 1px solid #ccc; /* Add a border around each box */
+  padding: 10px;
+  text-align: center;
+  background-color: #f0f0f0; /* Add a background color */
+  height: 300px;
+  font-family: "Pacifico", sans-serif;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:48px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.veg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(58, 87, 130, 1) 0%,
+      rgba(96, 246, 208, 0.5) 71%,
+      rgba(255, 255, 255, 1) 95%
+    ),
+    url("../public/fruits.png");
+}
+
+.candy {
+  background-image: linear-gradient(
+      180deg,
+      rgba(58, 87, 130, 1) 0%,
+      rgba(96, 246, 208, 0.5) 71%,
+      rgba(255, 255, 255, 1) 95%
+    ),
+    url("../public/sprees.jpg");
+  background-position: center;
+}

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @media screen and (max-width: 900px) {
     /* Change flex-direction to stack the columns vertically */
     body {

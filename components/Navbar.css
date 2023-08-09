@@ -3,6 +3,8 @@
     gap: 20px;
     justify-content: space-evenly;
     list-style: none;
+    background-color: rgba(58,87,130,1);
+    color:white;
   }
   
   .navbar .hamburger-icon {

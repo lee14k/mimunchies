@@ -3,13 +3,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh; /* Use viewport height to fill the screen vertically */
-    background-image: linear-gradient(180deg, rgba(255,255,255,1) 17%, rgba(147,69,70,0) 100%), url('../public/midsection.png');
+    height:1000px; /* Use viewport height to fill the screen vertically */
+    background-image:linear-gradient(180deg, rgba(58,87,130,1) 0%, rgba(96,246,208,0.5) 71%, rgba(255,255,255,1) 95%), url('../public/midsection.png');
     background-size: cover; /* Make sure the background image covers the entire container */
     background-position: center; /* Center the background image */
     margin: 0;
-    padding: 20px; /* Optional: Add some padding to the container */
+    padding:120px; /* Optional: Add some padding to the container */
     box-sizing: border-box;
+  margin-bottom:50px;
   }
   
   /* Adjust text size */
@@ -32,7 +33,7 @@
 
 .logo {
     height:300px;
-    width:300px;
+    width:500px;
     z-index:1
 }
 
@@ -92,7 +93,9 @@ h1,h2 {
     font-family: 'Pacifico';
     -webkit-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
-    box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);  }
+    box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);  
+  background-color:white;
+}
     .call {
         display:flex;
         flex-direction: column;
@@ -139,7 +142,7 @@ h1,h2 {
     
   }
     .treats {
-    
+      
         font-size: 50px;
     }
 
@@ -150,5 +153,10 @@ h1,h2 {
 
  
   }
+.treats {
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
 
+
+}
   
