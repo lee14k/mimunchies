@@ -20,7 +20,7 @@
   
   /* Adjust button size */
   .homewrapper button {
-    font-size: 14px; /* Change the font size as needed */
+    font-size: 30px; /* Change the font size as needed */
     padding: 10px 20px; /* Optional: Adjust padding as needed */
     box-sizing: border-box;
   }
@@ -86,15 +86,16 @@ h1,h2 {
   }
 
   .orderbutton {
-    width:200px;
-    height:50px;
+    width:300px;
+    height:80px;
     border-radius:50px;
-    font-size:20px;
+    font-size:1.5em;
     font-family: 'Pacifico';
     -webkit-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
     box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);  
   background-color:white;
+  border:solid 1px #212832;
 }
     .call {
         display:flex;
@@ -112,17 +113,6 @@ h1,h2 {
         font-family:'Roboto';
       }
     
-      .contactbutton {
-        width:200px;
-        height:50px;
-        border-radius:50px;
-        font-size:20px;
-        font-family: 'Pacifico';
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
-        box-shadow: 10px 10px 5px 0px rgba(140,250,206,1);
-      }
-
   @media screen and (max-width: 900px) {
     /* Change flex-direction to stack the columns vertically */
  
@@ -148,15 +138,23 @@ h1,h2 {
 
     .homewrapper {
         overflow-x: hidden;
+        text-align: center;
+        padding:10px;
 
+    }
+    .logo {
+      width:300px;
+      height:auto;
     }
 
  
   }
 .treats {
   color: white;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 2px 2px 2px #212832;
 
 
 }
-  
+  .text-stroke-3 {
+    -webkit-text-stroke: 3px black;
+}

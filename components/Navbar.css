@@ -5,6 +5,7 @@
     list-style: none;
     background-color: rgba(58,87,130,1);
     color:white;
+    align-items: center;
   }
   
   .navbar .hamburger-icon {

@@ -63,20 +63,7 @@ export default function Contact() {
               Arcu sed malesuada et magna.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
-              <div className="flex gap-x-4">
-                <dt className="flex-none">
-                  <span className="sr-only">Address</span>
-                  <BuildingOffice2Icon
-                    className="h-7 w-6 text-gray-400"
-                    aria-hidden="true"
-                  />
-                </dt>
-                <dd>
-                  545 Mavis Island
-                  <br />
-                  Chicago, IL 99191
-                </dd>
-              </div>
+              
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Telephone</span>
@@ -104,7 +91,7 @@ export default function Contact() {
                     className="hover:text-white"
                     href="mailto:hello@example.com"
                   >
-                    hello@example.com
+                    contact@mi-munchies.com
                   </a>
                 </dd>
               </div>

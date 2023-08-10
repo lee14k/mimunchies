@@ -113,9 +113,7 @@ export default function CandiesTreats() {
                     ) : null}
                   </div>
                   <div className="mt-1 flex flex-col text-gray-500 sm:block lg:hidden">
-                    <span>
-                      {plan.memory} / {plan.cpu}
-                    </span>
+                   
                     <span className="hidden sm:inline">·</span>
                     <span>{plan.storage}</span>
                   </div>
@@ -129,7 +127,6 @@ export default function CandiesTreats() {
                     "px-3 py-3.5 text-sm text-gray-500"
                   )}
                 >
-                  <div className="sm:hidden">{plan.price}/mo</div>
                   <div className="hidden sm:block">{plan.price}/ounce</div>
                 </td>
                 {/* ... other cell content for memory, cpu, storage ... */}
