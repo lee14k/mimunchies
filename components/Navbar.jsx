@@ -68,6 +68,10 @@ function Navbar() {
               Contact Us
             </Link>
           </li>
+           <li className="nav-item">
+            <Link to="/Store" onClick={() => handleNavLinkClick("/Store")}>
+Store            </Link>
+          </li>
         </ul>
       )}
     </div>
