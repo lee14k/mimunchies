@@ -112,11 +112,7 @@ export default function CandiesTreats() {
                       </span>
                     ) : null}
                   </div>
-                  <div className="mt-1 flex flex-col text-gray-500 sm:block lg:hidden">
-                   
-                    <span className="hidden sm:inline">·</span>
-                    <span>{plan.storage}</span>
-                  </div>
+                 
                   {planIdx !== 0 ? (
                     <div className="absolute -top-px left-6 right-0 h-px bg-gray-200" />
                   ) : null}

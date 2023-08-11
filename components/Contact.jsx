@@ -3,17 +3,15 @@ import {
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
-
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 import { useState } from "react";
 
 export default function Contact() {
-  const [formData, setFormData] = useState ({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    message: "",
-  })
+  const [state, handleSubmit] = useForm("mrgwplep");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
   return (
     <div className="relative isolate bg-gray-900">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -67,11 +65,10 @@ export default function Contact() {
               Get in touch
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-           Want some sweet treats? Looking to get a custom treat tray? Send us a message and we will get back to you as soon as possible!
+              Want some sweet treats? Looking to get a custom treat tray? Send
+              us a message and we will get back to you as soon as possible!
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
-              
-           
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Email</span>
@@ -83,7 +80,7 @@ export default function Contact() {
                 <dd>
                   <a
                     className="hover:text-white"
-                    href="mailto:hello@example.com"
+                    href="mailto:contact@mi-munchies.com"
                   >
                     contact@mi-munchies.com
                   </a>
@@ -93,8 +90,7 @@ export default function Contact() {
           </div>
         </div>
         <form
-          action="#"
-          method="POST"
+          onSubmit={handleSubmit}
           className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">

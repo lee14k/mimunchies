@@ -25,9 +25,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="container">
         <Call />
-      </div>
      
       <Peachy />
     </div>

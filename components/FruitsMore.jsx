@@ -95,11 +95,7 @@ export default function FruitsMore() {
                       </span>
                     ) : null}
                   </div>
-                  <div className="mt-1 flex flex-col text-gray-500 sm:block lg:hidden">
-                    
-                    <span className="hidden sm:inline">·</span>
-                    <span>{plan.storage}</span>
-                  </div>
+                 
                   {planIdx !== 0 ? (
                     <div className="absolute -top-px left-6 right-0 h-px bg-gray-200" />
                   ) : null}
@@ -112,7 +108,6 @@ export default function FruitsMore() {
                 >
                   <div className="hidden sm:block">{plan.price}/ounce</div>
                 </td>
-                {/* ... other cell content for memory, cpu, storage ... */}
                 <td
                   className={classNames(
                     planIdx === 0 ? "" : "border-t border-transparent",

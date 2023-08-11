@@ -7,7 +7,7 @@ const handleNavLinkClick = (route) => {
   navigate(route);
 };
   return (
-    <div>
+    <div className="menucontain">
       <ul className="gridlist ">
          <Link
             to="/CandiesTreats"

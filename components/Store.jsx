@@ -43,6 +43,18 @@ export default function Store() {
           <Link to="https://square.link/u/K6tO8LVP?src=embed">Buy now</Link>
         </div>
       </div>
+      <div className="card">
+        <img
+          className="container-image"
+          src="https://items-images-production.s3.us-west-2.amazonaws.com/files/796131434089a5be238204a741e70f5bca5115c8/original.jpeg"
+          alt="Hi Honey (Bit o honey)"
+        />
+        <div>
+          <p>Hi Honey (Bit o honey)</p>
+          <p >$4.00 - $8.00</p>
+          <Link to="https://square.link/u/K6tO8LVP?src=embed">Buy now</Link>
+        </div>
+      </div>
     </div>
   );
 }
