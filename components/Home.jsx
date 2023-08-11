@@ -19,7 +19,7 @@ export default function Home() {
         <div className="buttoncontainer">
           <button
             className="orderbutton"
-            onClick={() => handleNavLinkClick("/Contact")}
+            onClick={() => handleNavLinkClick("/Store")}
           >
             Order your Treats
           </button>

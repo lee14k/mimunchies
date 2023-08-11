@@ -54,23 +54,25 @@ function Navbar() {
       {(showMobile || !isMobile || dropdown) && (
         <ul className={`nav ${dropdown ? "open" : ""}`}>
           <li className="nav-item">
-            <Link to="/Ourmenu" onClick={() => handleNavLinkClick("/Ourmenu")}>
-              Our Menu
-            </Link>
-          </li>
-          <li className="nav-item">
             <Link to="/" onClick={() => handleNavLinkClick("/")}>
               <img className="navlogo" src="mifinlogo.png"></img>
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/Store" onClick={() => handleNavLinkClick("/Store")}>
+              Store{" "}
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/Ourmenu" onClick={() => handleNavLinkClick("/Ourmenu")}>
+              Our Menu
+            </Link>
+          </li>
+
+          <li className="nav-item">
             <Link to="/Contact" onClick={() => handleNavLinkClick("/Contact")}>
               Contact Us
             </Link>
-          </li>
-           <li className="nav-item">
-            <Link to="/Store" onClick={() => handleNavLinkClick("/Store")}>
-Store            </Link>
           </li>
         </ul>
       )}
