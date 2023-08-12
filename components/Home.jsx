@@ -17,17 +17,11 @@ export default function Home() {
 
         <h1 className="treats">Freeze Dried Treats</h1>
         <div className="buttoncontainer">
-          <button
-            className="orderbutton"
-            onClick={() => handleNavLinkClick("/Store")}
-          >
-            Order your Treats
-          </button>
+        
         </div>
       </div>
         <Call />
      
-      <Peachy />
     </div>
   );
 }
