@@ -1,9 +1,17 @@
 .midcontainer {
-    height:500px;
+    height:700px;
     width:100%;
     background-image:linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(96,246,208,0.5) 71%, rgba(255,255,255,1) 95%), url('./skittles.jpg');
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
+    padding-bottom:100px;
+}
+.special {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 0px;
 }

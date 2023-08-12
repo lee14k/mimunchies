@@ -10,7 +10,7 @@ import { useState } from "react";
 export default function Contact() {
   const [state, handleSubmit] = useForm("mrgwplep");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p>Thanks for reaching out!</p>;
   }
   return (
     <div className="relative isolate bg-gray-900">
