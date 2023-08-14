@@ -4,7 +4,6 @@ const plans = [
     name: "Skittles",
 
     price: "$2",
-    isCurrent: false,
   },
   {
     id: 2,
@@ -13,55 +12,54 @@ const plans = [
     price: "$2",
   },
   {
-    id: 2,
+    id: 3,
     name: "Asteroids (Nerds)",
 
     price: "$2",
   },
   {
-    id: 2,
-    name: "Snickers & Twix",
-
-    price: "$2",
+    id: 4,
+   name: "Snickers & Twix",
+    price: "$3 for 6 pieces",
   },
   {
-    id: 2,
+    id: 5,
     name: "Airheads",
 
     price: "$2",
   },
   {
-    id: 2,
+    id: 6,
     name: "Lemon Heads",
 
     price: "$2",
   },
   {
-    id: 2,
+    id: 7,
     name: "Mini Sweet Tarts",
 
     price: "$2",
   },
   {
-    id: 2,
+    id: 8,
     name: "Bit O'Honey",
 
     price: "$2",
   },
   {
-    id: 2,
+    id: 9,
     name: "Frooties & Tootsie Rolls",
 
     price: "$2",
   },
   {
-    id: 2,
+    id: 10,
     name: "Jolly Ranchers",
 
     price: "$2",
   },
   {
-    id: 2,
+    id: 11,
     name: "Caramel M&Ms",
 
     price: "$2",
@@ -109,20 +107,23 @@ export default function CandiesTreats() {
                       (Current Plan)
                     </span>
                   )}
-                  <div className="lg:hidden mt-2">{plan.price}/ounce</div>
+               <div className="lg:hidden mt-2">
+    {plan.id === 4 ? plan.price : `${plan.price}/ounce`}
+</div>
+
 
                   {planIdx !== 0 && (
                     <div className="absolute -top-px left-6 right-0 h-px bg-gray-200" />
                   )}
                 </td>
-                <td
-                  className={classNames(
-                    planIdx === 0 ? "" : "border-t border-gray-200",
-                    "hidden px-3 py-3.5 text-sm text-gray-500 lg:table-cell"
-                  )}
-                >
-                  {plan.price}/ounce
-                </td>
+               <td
+  className={classNames(
+    planIdx === 0 ? "" : "border-t border-gray-200",
+    "hidden px-3 py-3.5 text-sm text-gray-500 lg:table-cell"
+  )}
+>
+  {plan.id === 4 ? plan.price : `${plan.price}/ounce`}
+</td>
                 <td
                   className={classNames(
                     planIdx === 0 ? "" : "border-t border-transparent",
