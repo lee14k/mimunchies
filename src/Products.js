@@ -2,8 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 
-const SQUARESPACE_ENDPOINT = 'https://api.squarespace.com/1.0/commerce/products';
-const API_KEY = 'sq0idp-EmZEe0kPM5v9VF_p6qDlSQ'; // Ideally, you should use environment variables to hide this.
 
 function ProductList() {
   const [products, setProducts] = useState([]);

@@ -4,8 +4,7 @@ import ProductList from "./Products";
 export default function Store() {
   return (
     <div className="container">
-<ProductList/>
-
+<h2>Store coming soon!</h2>
     </div>
   );
 }
